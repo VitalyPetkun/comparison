@@ -23,14 +23,14 @@ who did not have much experience using these applications before.
 This approach uses lidar to obtain information about the position of an object. 
 Thus, we inherit all the problems associated with lidar, the difficult ones are:
 - reflective objects
-- poor consecration
+- objects paired with obscure lightning
 - small objects
 - geometrically simple objects.
-At this stage we do not use color in order to have the greatest possible invariance to the consecration.
+At this stage we do not use color in order to have the greatest possible invariance to the lighting.
 
 The approach involves two stages of scanning an object: to create an object and to recognize it.
 
-** Conclusion: ** This approach will work well for fairly large objects (about the size of a coffee machine) 
+**Summary:** This approach will work well for fairly large objects (bigger than a coffee machine) 
 without 
 major changes in illumination and without major changes in the appearance of the object.
 
@@ -56,7 +56,20 @@ lighting or object appearance will result in poor alignment accuracy.
 - the approach uses a video stream from the camera for detection, 
 so the scanning stage of the asset during recognition is omitted.
 
-**Conclusion:** the approach is fast, does not require additional equipment, 
+**Summary:** the approach is fast, does not require additional equipment, 
 and is ideal for small but visually diverse objects on a flat surface. 
 It will also be good to recognize objects if the environment does not 
 differ from what it was during the creation of the model.
+
+
+### Conclusion
+Both approaches have their own set of 
+applicable scenarios, and only the simplest 
+cases are found at the intersection of these sets. 
+*MScanner* imposes many restrictions on the objects themselves, 
+while *RealityComposer* does not have any special restrictions 
+on objects, but only works if there are no serious differences 
+in the environment at the stages of model creation and recognition. 
+On the other hand, the advantages of program A include speed and the 
+absence of a 
+dedicated stage of scanning the environment for recognition.
