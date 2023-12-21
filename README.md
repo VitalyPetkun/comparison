@@ -8,7 +8,7 @@
 | change in appearance                                      | ![](src/scanner/scenario5/gnome.gif)| &cross; | ![](src/scanner/scenario5/cleaner.gif)| &check; | ![](src/scanner/scenario5/printer.gif)| &cross; | ![](src/scanner/scenario5/rabbit.gif)| &cross; |
 
 
-
+<img src="src/scanner/scenario5/gnome.gif?raw=true">
 
 # comparison
 12/20/2023
