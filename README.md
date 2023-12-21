@@ -70,6 +70,6 @@ cases are found at the intersection of these sets.
 while *RealityComposer* does not have any special restrictions 
 on objects, but only works if there are no serious differences 
 in the environment at the stages of model creation and recognition. 
-On the other hand, the advantages of program A include speed and the 
+On the other hand, the advantages of RealityComposer include speed and the 
 absence of a 
 dedicated stage of scanning the environment for recognition.
